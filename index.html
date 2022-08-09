@@ -2,18 +2,21 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="This app helps youtubers pick the best background color for their videos">
+    	<meta name="description" content="This app helps youtubers pick the best background color for dog vest">
     	<meta name="keywords" content="youtube, background, lights">
 
-		<title>Youtube Background Picker</title>
+		<title>Dog Picks A Color</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="style.css">
+		<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+		<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 	</head>
 	<body>
+		<div id="root"></div>
 		<h1>Patty's Favorite Colors</h1>
-		<img src="img/sleepingwfishes.png" alt="generic youtube gaming chair">
+		<img src="sleepingwfishes.png" alt="generic youtube gaming chair">
 
 		<h2>Color safety vest</h2>
 		<ul>
@@ -22,7 +25,7 @@
 			<li id="blue"></li>
 			<li id="orange"></li>
 		</ul>
-
-		<script type="text/javascript" src="js/main.js"></script>
+		<script src="index.js" type="babel/text"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
