@@ -1,4 +1,8 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
 
+/* Box Model Hack */
 *{
   box-sizing: border-box;
 }
